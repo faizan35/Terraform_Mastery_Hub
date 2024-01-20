@@ -58,6 +58,14 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
     - Set up a simple AWS S3 bucket using Terraform.
 
+- **Exercise 1: Getting Started with Terraform**
+
+  - Task: Set up an AWS S3 bucket using Terraform. Customize settings like bucket name, ACL, and region.
+
+- **Exercise 2: Terraform Commands**
+
+  - Task: Use `terraform init`, `terraform plan`, and `terraform apply` to deploy and manage the S3 bucket.
+
 ### Module 2: Terraform Configuration and Variables
 
 1.  **Terraform Configuration Structure**
@@ -74,6 +82,14 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
     - Parameterize your S3 bucket configuration using variables.
 
+- **Exercise 1: Organizing Configurations**
+
+  - Task: Organize your AWS S3 configuration into main.tf, variables.tf, and outputs.tf.
+
+- **Exercise 2: Utilizing Variables**
+
+  - Task: Parameterize your S3 bucket configuration using variables for bucket name, ACL, and region.
+
 ### Module 3: Terraform State and State Management
 
 1.  **Understanding Terraform State**
@@ -88,6 +104,14 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
     **Practical Exercise:**
 
     - Move your S3 bucket state to a remote backend.
+
+- **Exercise 1: Examining Terraform State**
+
+  - Task: Explore the terraform.tfstate file for your S3 bucket configuration.
+
+- **Exercise 2: Remote State with AWS S3 Backend**
+
+  - Task: Move the S3 bucket state to an AWS S3 remote backend.
 
 ### Module 4: Terraform Providers
 
@@ -105,6 +129,14 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
     - Set up an EC2 instance on AWS using Terraform.
 
+- **Exercise 1: Provisioning an EC2 Instance**
+
+  - Task: Use Terraform to provision an AWS EC2 instance. Customize settings like instance type, AMI, and key pair.
+
+- **Exercise 2: Fetching Information with Data Blocks**
+
+  - Task: Use a data block to fetch information about the EC2 instance you just created.
+
 ### Module 5: Terraform Modules
 
 1.  **Modularization in Terraform**
@@ -115,6 +147,14 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
     **Practical Exercise:**
 
     - Design a module for provisioning a VPC and reuse it in different configurations.
+
+- **Exercise 1: Creating a VPC Module**
+
+  - Task: Design a Terraform module for provisioning an AWS VPC.
+
+- **Exercise 2: Reusing the VPC Module**
+
+  - Task: Incorporate the VPC module into your EC2 instance configuration.
 
 ### Module 6: Advanced Terraform Concepts
 
@@ -131,6 +171,14 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
     **Practical Exercise:**
 
     - Implement workspaces for different environments (dev, prod) and use provisioners to configure instances.
+
+- **Exercise 1: Implementing Workspaces**
+
+  - Task: Create separate Terraform workspaces for development and production environments.
+
+- **Exercise 2: Using Provisioners**
+
+  - Task: Utilize provisioners to install and configure software on your EC2 instance.
 
 ### Module 7: Terraform Best Practices and Troubleshooting
 
@@ -149,6 +197,14 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
     - Implement best practices in a sample Terraform project.
 
+- **Exercise 1: Implementing Best Practices**
+
+  - Task: Version control your Terraform configurations and use variables for sensitive information.
+
+- **Exercise 2: Debugging Terraform Configurations**
+
+  - Task: Intentionally introduce an error in your configuration and debug it using Terraform commands.
+
 ### Module 8: Real-world Scenarios and Advanced Topics
 
 1.  **Designing Complex Infrastructures**
@@ -164,6 +220,14 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
     - Design a multi-tier architecture with load balancers, auto-scaling groups, and databases.
 
+- **Exercise 1: Multi-tier Architecture**
+
+  - Task: Design and implement a multi-tier architecture with an application load balancer, auto-scaling group, and RDS database.
+
+- **Exercise 2: Exploring Advanced Features**
+
+  - Task: Experiment with dynamic blocks, count, or for_each in your Terraform configurations.
+
 ### Module 9: Terraform Ecosystem
 
 1.  **Terraform Ecosystem Overview**
@@ -174,11 +238,20 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
     - Experiment with Terragrunt for managing Terraform configurations.
 
+    **Exercise: Exploring Terragrunt**
+
+- Task: Set up and use Terragrunt to manage Terraform configurations for the multi-tier architecture.
+
 ### Module 10: Final Project
 
 1.  **Capstone Project**
+
     - Apply all the learned concepts in a real-world scenario.
     - Design, implement, and manage a complete infrastructure using Terraform.
+
+**Exercise: Comprehensive Infrastructure Management**
+
+- Task: Apply all learned concepts in a final project. Design, implement, and manage a complete infrastructure using Terraform for an AWS-based application.
 
 ---
 
