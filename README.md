@@ -1,8 +1,186 @@
 # Terraform Mastery Hub
 
+# < --- In Progress --- >
+
 Learn Terraform with this comprehensive learning repository, delving into in-depth tutorials and practical insights.
 
 # Terraform Learning Syllabus
+
+### Module 0: Installing and Setting up Terraform
+
+1.  **Installing Terraform on Different Operating Systems**
+
+    - **Exercise 1: Linux Installation**
+
+      - Task: Install Terraform on a Linux system using a package manager or manually.
+
+    - **Exercise 2: Windows Installation**
+
+      - Task: Install Terraform on a Windows machine using the MSI installer.
+
+    - **Exercise 3: Mac Installation**
+
+      - Task: Install Terraform on a macOS system using Homebrew or manual installation.
+
+2.  **Setting Up Terraform Configuration**
+
+    - **Exercise 1: Initializing a Terraform Project**
+
+      - Task: Create a simple Terraform configuration file, run `terraform init`, and verify the initialization.
+
+    - **Exercise 2: Verifying the Installation**
+
+      - Task: Use basic Terraform commands (`plan`, `apply`, `destroy`) to ensure proper installation and functionality.
+
+3.  **Managing Multiple Versions with tfenv (Optional)**
+
+    - **Exercise: Using tfenv**
+      - Task: Install `tfenv` and switch between different versions of Terraform for flexibility in managing projects.
+
+### Module 1: Introduction to Terraform
+
+1.  **Understanding Infrastructure as Code (IaC)**
+
+    - Definition and importance of IaC.
+    - Advantages of using Terraform for IaC.
+
+2.  **Terraform Basics**
+
+    - Installation and setup.
+    - Basic Terraform commands (`init`, `plan`, `apply`, `destroy`).
+
+3.  **Declarative Syntax**
+
+    - Introduction to HCL (HashiCorp Configuration Language).
+    - Writing basic Terraform configurations.
+
+    **Practical Exercise:**
+
+    - Set up a simple AWS S3 bucket using Terraform.
+
+### Module 2: Terraform Configuration and Variables
+
+1.  **Terraform Configuration Structure**
+
+    - Organizing configurations with main.tf, variables.tf, and outputs.tf.
+    - Understanding the Terraform block structure.
+
+2.  **Variables and Input Parameters**
+
+    - Declaring and using variables in Terraform.
+    - Variable types and scoping.
+
+    **Practical Exercise:**
+
+    - Parameterize your S3 bucket configuration using variables.
+
+### Module 3: Terraform State and State Management
+
+1.  **Understanding Terraform State**
+
+    - Importance of state in Terraform.
+    - Examining the terraform.tfstate file.
+
+2.  **Remote State Management**
+
+    - Configuring and using remote backends (AWS S3, Azure Storage, etc.).
+
+    **Practical Exercise:**
+
+    - Move your S3 bucket state to a remote backend.
+
+### Module 4: Terraform Providers
+
+1.  **Introduction to Providers**
+
+    - Explanation of Terraform providers.
+    - Configuring different cloud providers (AWS, Azure, GCP).
+
+2.  **Resource Blocks and Data Blocks**
+
+    - Creating resources with resource blocks.
+    - Using data blocks to fetch information.
+
+    **Practical Exercise:**
+
+    - Set up an EC2 instance on AWS using Terraform.
+
+### Module 5: Terraform Modules
+
+1.  **Modularization in Terraform**
+
+    - Importance of modules for code reusability.
+    - Creating and using Terraform modules.
+
+    **Practical Exercise:**
+
+    - Design a module for provisioning a VPC and reuse it in different configurations.
+
+### Module 6: Advanced Terraform Concepts
+
+1.  **Workspaces**
+
+    - Introduction to workspaces in Terraform.
+    - Use cases and best practices.
+
+2.  **Provisioners**
+
+    - Understanding provisioners.
+    - Executing scripts during resource creation.
+
+    **Practical Exercise:**
+
+    - Implement workspaces for different environments (dev, prod) and use provisioners to configure instances.
+
+### Module 7: Terraform Best Practices and Troubleshooting
+
+1.  **Best Practices in Terraform**
+
+    - Version control and collaboration.
+    - Handling sensitive information securely.
+    - Terraform testing and validation.
+
+2.  **Troubleshooting in Terraform**
+
+    - Debugging Terraform configurations.
+    - Interpreting error messages.
+
+    **Practical Exercise:**
+
+    - Implement best practices in a sample Terraform project.
+
+### Module 8: Real-world Scenarios and Advanced Topics
+
+1.  **Designing Complex Infrastructures**
+
+    - Creating multi-tier architectures.
+    - Integrating with other HashiCorp tools (Vault, Consul).
+
+2.  **Advanced Terraform Features**
+
+    - Exploring advanced features like dynamic blocks, count, and for_each.
+
+    **Practical Exercise:**
+
+    - Design a multi-tier architecture with load balancers, auto-scaling groups, and databases.
+
+### Module 9: Terraform Ecosystem
+
+1.  **Terraform Ecosystem Overview**
+
+    - Introduction to tools like Terragrunt, Atlantis, and Sentinel.
+
+    **Practical Exercise:**
+
+    - Experiment with Terragrunt for managing Terraform configurations.
+
+### Module 10: Final Project
+
+1.  **Capstone Project**
+    - Apply all the learned concepts in a real-world scenario.
+    - Design, implement, and manage a complete infrastructure using Terraform.
+
+---
 
 ## Module 1: Introduction to Terraform
 
