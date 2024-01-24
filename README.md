@@ -6,41 +6,50 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
 # Terraform Learning Syllabus
 
-**Module 1: Introduction to Terraform and AWS**
+### Prerequisite
 
-- **1.1 Overview of Infrastructure as Code (IaC)**
+- HCL Learning repo
+- AWS CLI
+
+### **Module 1: Introduction to Terraform and AWS**
+
+- **[1.1 Understanding Infrastructure as Code (IaC)](./Module-01/1.1-Understanding-IaC.md)**
 
   - Understand the concept of IaC and its benefits.
   - Explore different IaC tools and why Terraform is widely adopted.
 
-- **1.2 Introduction to Terraform**
+- **[1.2 Introduction to Terraform & Installing](./Module-01/1.2-Installing-Terraform.md)**
 
   - Overview of Terraform as a declarative infrastructure provisioning tool.
   - Installation and basic configuration.
 
-- **1.3 AWS Fundamentals**
+- **[1.3 AWS Fundamentals](./Module-01/1.3-AWS-Funda.md)**
 
   - Understanding key AWS services used in infrastructure provisioning.
   - Overview of AWS Resource Types.
 
-**Module 2: Terraform Basics**
+### **Module 2: Terraform Basics**
 
-- **2.1 Terraform Configuration Language (HCL) Recap**
+- **[2.1 HCL Recap](./Module-02/2.1-HCL-Recap.md)**
 
   - Brief overview for those who already know HCL syntax.
   - Advanced HCL features.
 
-- **2.2 Terraform Workspaces**
+- **[2.2 Terraform Workspaces](./Module-02/2.2-Workspace.md)**
 
   - Managing multiple environments with Terraform workspaces.
   - Best practices for environment-specific configurations.
 
-- **2.3 Terraform Providers**
+- **[2.3 Terraform `required_providers` and `providers`](./Module-02/2.3-Providers.md)**
 
   - Understanding and configuring the AWS provider.
   - Managing multiple providers in a single configuration.
 
-**Module 3: Terraform Workflow**
+**Practical Exercise**
+
+- [P.2.1 Terraform Workspaces in a Multi-Environment Setup](./Module-02/P.2.1-Workspaces-Multi-Environment.md)
+
+### **Module 3: Terraform Workflow**
 
 - **3.1 Initializing a Terraform Configuration**
 
@@ -62,7 +71,13 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
   - `terraform plan` and `terraform apply` commands.
   - Understanding and reviewing execution plans.
 
-**Module 4: Advanced Terraform Concepts**
+**Practical Exercise**
+
+- [P.3.1 Creating and Writing to a Text File using Terraform](./Module-03/P.3.1-Creating-Writing-Text-File.md)
+
+- [P.3.2 Provisioning NGINX with Docker on Linux](./Module-03/P.3.2-Provisioning-NGINX-Docker.md)
+
+### **Module 4: Advanced Terraform Concepts**
 
 - **4.1 Modules**
 
@@ -79,7 +94,7 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
   - Managing input variables for reusability.
   - Output variables and their significance.
 
-**Module 5: Managing AWS Resources**
+### **Module 5: Managing AWS Resources**
 
 - **5.1 EC2 Instances**
 
@@ -96,7 +111,7 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
   - Managing IAM roles and policies.
   - Implementing security best practices with Terraform.
 
-**Module 6: Terraform and AWS Best Practices**
+### **Module 6: Terraform and AWS Best Practices**
 
 - **6.1 Infrastructure Testing**
 
