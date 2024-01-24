@@ -51,22 +51,22 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
 ### **Module 3: Terraform Workflow**
 
-- **3.1 Initializing a Terraform Configuration**
+- **[3.1 Initializing a Terraform Configuration `terraform init`](./Module-03/3.1-Initializing-Configuration.md)**
 
   - `terraform init` command and its significance.
   - Managing provider plugins.
 
-- **3.2 Terraform Configuration Files**
+- **[3.2 Structuring Terraform Configurations](./Module-03/3.2-Structuring-Configurations.md)**
 
   - Structuring Terraform configurations for readability and reusability.
   - Using variables and data sources.
 
-- **3.3 Terraform State Management**
+- **[3.3 State Management](./Module-03/3.3-State-Management.md)**
 
   - Importance of Terraform state.
   - Remote and local state management.
 
-- **3.4 Planning and Applying Changes**
+- **[3.4 Planning `terraform plan` and Applying `terraform apply` Changes](./Module-03/3.4-Planning-Applying-Changes.md)**
 
   - `terraform plan` and `terraform apply` commands.
   - Understanding and reviewing execution plans.

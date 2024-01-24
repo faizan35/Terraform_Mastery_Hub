@@ -66,6 +66,68 @@
 
     - Discuss how functions, modules, and dynamic blocks contribute to more modular and maintainable configurations.
 
-#### 2.1
+#### 2.2
 
-#### 2.1
+#### 2.3
+
+1.  **Provider Versioning:**
+
+    - Discuss the importance of specifying provider versions in larger projects to maintain compatibility.
+
+2.  **Provider Configuration Options:**
+
+    - Explore additional configuration options available for providers, such as `alias` and `allowed_account_ids`.
+
+3.  **Authentication Best Practices:**
+
+    - Discuss best practices for managing credentials, such as using environment variables or credential files.
+
+---
+
+## Module 3
+
+#### 3.1
+
+1.  **Importance of `terraform init`:**
+
+    - Discuss why `terraform init` is a necessary step before applying any Terraform configuration.
+
+2.  **Plugin Versioning:**
+
+    - Explain the significance of specifying provider versions to ensure consistency across runs.
+
+3.  **Backend Initialization:**
+
+    - Discuss scenarios where a backend may need to be initialized and how it impacts state management.
+
+#### 3.2
+
+1.  **Benefits of File Separation:**
+
+    - Discuss why separating configurations into distinct files enhances readability and maintenance.
+
+2.  **Variables in Terraform:**
+
+    - Explain the role of variables in making configurations more dynamic and adaptable.
+
+3.  **Data Sources:**
+
+    - Discuss scenarios where data sources are useful, especially for fetching information from external systems.
+
+#### 3.3
+
+1.  **Pros and Cons of Local State:**
+
+    - Discuss the advantages and disadvantages of using local state in different scenarios.
+
+2.  **Remote State Best Practices:**
+
+    - Explore best practices for configuring and using remote state, including security considerations.
+
+3.  **Changing State Backends:**
+
+    - Discuss scenarios where changing the state backend might be necessary and the considerations involved.
+
+#### 3.4
+
+---
