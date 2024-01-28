@@ -77,39 +77,34 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
 
 - [P.3.2 Provisioning NGINX with Docker on Linux](./Module-03/P.3.2-Provisioning-NGINX-Docker.md)
 
-### **Module 4: Advanced Terraform Concepts**
+### **Module 4: Managing AWS Resources**
 
-- **4.1 Modules**
-
-  - Creating and using Terraform modules.
-  - Module composition and best practices.
-
-- **4.2 Dynamic Blocks and Expressions**
-
-  - Utilizing dynamic blocks for flexibility.
-  - Advanced use of expressions in Terraform.
-
-- **4.3 Input and Output Variables**
-
-  - Managing input variables for reusability.
-  - Output variables and their significance.
-
-### **Module 5: Managing AWS Resources**
-
-- **5.1 EC2 Instances**
+- **4.1 EC2 Instances**
 
   - Creating and managing EC2 instances with Terraform.
   - Advanced configuration options.
 
-- **5.2 Networking with Terraform**
+- **4.2 Networking with Terraform**
 
   - VPCs, subnets, and security groups.
   - Leveraging AWS networking services.
 
-- **5.3 AWS IAM and Security**
+- **4.3 AWS IAM and Security**
 
   - Managing IAM roles and policies.
   - Implementing security best practices with Terraform.
+
+### **Module 5: Advanced Terraform Concepts**
+
+- **5.1 Dynamic Blocks and Expressions**
+
+  - Utilizing dynamic blocks for flexibility.
+  - Advanced use of expressions in Terraform.
+
+- **5.2 Input and Output Variables**
+
+  - Managing input variables for reusability.
+  - Output variables and their significance.
 
 ### **Module 6: Terraform and AWS Best Practices**
 
