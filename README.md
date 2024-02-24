@@ -28,6 +28,11 @@ Learn Terraform with this comprehensive learning repository, delving into in-dep
   - Understanding key AWS services used in infrastructure provisioning.
   - Overview of AWS Resource Types.
 
+- **[1.4 Different Types of Treeaform files](./Module-01/1.4-Different-Types-Treeaform-files.md)**
+
+  - Understanding key AWS services used in infrastructure provisioning.
+  - Overview of AWS Resource Types.
+
 ### **Module 2: Terraform Basics**
 
 - **[2.1 HCL Recap](./Module-02/2.1-HCL-Recap.md)**
