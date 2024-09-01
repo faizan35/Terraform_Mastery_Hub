@@ -75,7 +75,7 @@
 - **Drift Management**: Understand how to detect and manage drift between your Terraform configurations and the actual state of your infrastructure.
 - **Debugging and Troubleshooting**: Learn how to debug and troubleshoot Terraform issues in production environments.
 
-### 11. **Real-World Projects**
+### [11. **Real-World Projects**](./11-Real-World-Projects.md)
 
 - **Create Multi-Cloud Infrastructure**: Implement projects that deploy resources across AWS, Azure, and GCP using Terraform.
 - **Hybrid Cloud Deployments**: Work on projects involving on-premises and cloud infrastructure.
