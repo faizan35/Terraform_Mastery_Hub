@@ -62,38 +62,38 @@
 
 ## Module 1 — Language Essentials (HCL2)
 
-### 1.1 — Resources & data sources
+### [1.1 — Resources & data sources](./01-Language_Essentials/1.1-Resources_and_data_sources.md)
 
 - Arguments vs attributes; computed values and unknowns
 - Data source lookups & common pitfalls (ordering, eventual consistency)
 - Inter‑resource references; explicit vs implicit dependencies
 
-### 1.2 — Meta‑arguments
+### [1.2 — Meta‑arguments](./01-Language_Essentials/1.2-Meta_arguments.md)
 
 - `count` vs `for_each`; stable keys; migration patterns
 - `depends_on` (when necessary) and hidden dependencies
 - `lifecycle` (`create_before_destroy`, `prevent_destroy`, `ignore_changes`)
 
-### 1.3 — Inputs & outputs
+### [1.3 — Inputs & outputs](./01-Language_Essentials/1.3-Inputs_and_oputs.md)
 
 - `variable` types, defaults, `nullable`; `locals` for DRY
 - Output sensitivity; `sensitive = true` effects
 - Variable validation blocks (what to check; clear messages)
 
-### 1.4 — Custom conditions & assertions
+### [1.4 — Custom conditions & assertions](./01-Language_Essentials/1.4-Custom_conditions_and_assertions.md)
 
 - `precondition`/`postcondition` on resources and outputs
 - `check` blocks: shape, where to use (guardrails beyond type checks)
 - Designing user‑friendly failure messages
 
-### 1.5 — Expressions & functions
+### [1.5 — Expressions & functions](./01-Language_Essentials/1.5-Expressions_and_functions.md)
 
 - Collection types; `for` expressions, splats; `coalesce`, `try`
 - `dynamic` blocks to render nested structures
 - `templatefile` vs HEREDOC; JSON encoding helpers
 - Provider‑defined functions: when they help (validation/encoding)
 
-### 1.6 — Provisioners (last resort) & safer alternatives
+### [1.6 — Provisioners (last resort) & safer alternatives](./01-Language_Essentials/1.6-Provisioners_and_safer_alternatives.md)
 
 - Why `local-exec`/`remote-exec` are brittle; failure semantics
 - Prefer cloud‑init/user data, images, or config mgmt tools
