@@ -101,43 +101,43 @@
 
 ## Module 2 — State & Backends (Team‑Ready)
 
-### 2.1 — State model
+### [2.1 — State model](./02-State_and_Backends/2.1-State_model.md)
 
 - What’s in state vs not; resources, data, outputs
 - Refresh mechanics; unknowns in plan
 - State drift and why it happens
 
-### 2.2 — Remote state
+### [2.2 — Remote state](./02-State_and_Backends/2.2-Remote_state.md)
 
 - Backends: S3 (+DynamoDB lock), Azure Blob, GCS — pros/cons
 - Encryption, locking, IAM/RBAC patterns
 - Migrating local→remote with care
 
-### 2.3 — HCP Terraform (Cloud) integration
+### [2.3 — HCP Terraform (Cloud) integration](./02-State_and_Backends/2.3-HCP_Terraform_Cloud_integration.md)
 
 - `cloud` block; CLI login; workspace binding
 - Remote ops vs local; saved plans & approvals
 - Org/project/workspace concepts
 
-### 2.4 — Consuming remote state
+### [2.4 — Consuming remote state](./02-State_and_Backends/2.4-Consuming_Remote_state.md)
 
 - `terraform_remote_state` data source patterns
 - Cross‑stack outputs vs provider data sources; trade‑offs
 - Versioning & coupling concerns
 
-### 2.5 — State surgery (safely)
+### [2.5 — State surgery (safely)](./02-State_and_Backends/2.5-State_surgery.md)
 
 - `state mv`, `state rm`, `state pull/push` usage
 - Mapping addresses; dry‑runs; backups
 - `state replace-provider` for provider source changes
 
-### 2.6 — Backend block deep‑dive
+### [2.6 — Backend block deep‑dive](./02-State_and_Backends/2.6-Backend_block_deep‑dive.md)
 
 - Partial config & env var injection
 - Workspace key prefixes and naming
 - Common migration gotchas (locks, perms)
 
-### 2.7 - Latest tech for state
+### [2.7 - Latest Updates for Remote State Management](./02-State_and_Backends/2.7-State_Management.md)
 
 ## Module 3 — Modules & Reuse (Scale via Composition)
 
